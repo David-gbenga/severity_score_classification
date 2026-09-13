@@ -1,0 +1,31 @@
+{
+  "validation_strategy": "3-fold stratified out-of-fold",
+  "business_cost_assumption": "severe false negative = 5x low-severity false positive",
+  "severe_escalation_threshold": 0.2,
+  "base_multiclass": {
+    "accuracy": 0.7575,
+    "macro_f1": 0.7520630097043456,
+    "weighted_f1": 0.7572923021644743,
+    "quadratic_weighted_kappa": 0.9376876999666208,
+    "mean_absolute_class_error": 0.2505,
+    "severe_recall": 0.8968386023294509,
+    "severe_precision": 0.9213675213675213,
+    "severe_false_negatives": 62,
+    "severe_false_positives": 46,
+    "severe_true_positives": 539,
+    "severe_true_negatives": 1353
+  },
+  "risk_adjusted": {
+    "accuracy": 0.7425,
+    "macro_f1": 0.7367769402506275,
+    "weighted_f1": 0.7390645158075337,
+    "quadratic_weighted_kappa": 0.9386052951352934,
+    "mean_absolute_class_error": 0.262,
+    "severe_recall": 0.9700499168053245,
+    "severe_precision": 0.8304843304843305,
+    "severe_false_negatives": 18,
+    "severe_false_positives": 119,
+    "severe_true_positives": 583,
+    "severe_true_negatives": 1280
+  }
+}

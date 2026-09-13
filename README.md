@@ -16,6 +16,7 @@ The deployable model excludes fields that appear downstream of the triage/decisi
 `CaseReference` is an identifier and is excluded from modelling. The deployable model also removes `InvestigationRoute`, `OmbudsmanInvestigationRequired`, `PredictedRemedyBand`, and `ExpectedFinancialRedressGBP` because they plausibly occur downstream of the decision being automated.
 
 The Repository structure :
+![alt text](image-1.png)
 
 ## Data audit
 
@@ -195,3 +196,14 @@ Key assumptions and limitations
 - The data dictionary omits two supplied fields noted above.
 - A 2,000-row training set is adequate for a take-home demonstration but too small to establish robust subgroup performance or rare-event safety guarantees.
 - Automatic closure should not be enabled solely on the basis of offline validation; shadow deployment and human review are recommended first.
+
+Snapshots
+After training
+![alt text](image-2.png)
+
+After Prediction
+![alt text](image-3.png)
+
+All test passed
+
+![alt text](image-4.png)

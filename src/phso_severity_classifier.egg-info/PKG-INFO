@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: phso-severity-classifier
+Version: 1.0.0
+Summary: Risk-aware severity classification for PHSO complaint triage
+Requires-Python: >=3.11
